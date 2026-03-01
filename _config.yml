@@ -1,10 +1,14 @@
 title: Skullets
 description: Technically Driven Comics
-theme: beautiful-jekyll-theme
+
+remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
   Comics: "skullets"
   About: "about"
+
+plugins:
+  - jekyll-remote-theme
 
 collections:
   skullets:
@@ -17,7 +21,3 @@ defaults:
       type: "skullets"
     values:
       layout: post
-
-beautiful_jekyll:
-  custom_css:
-    - /assets/css/custom.css
